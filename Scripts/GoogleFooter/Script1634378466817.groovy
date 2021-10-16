@@ -25,3 +25,5 @@ WebUI.click(findTestObject('Object Repository/Page_Google/div_Zgadzam si'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Page_Google/span_Neutralno wglowa od 2007 roku'), 'Neutralność węglowa od 2007 roku')
 
+WebUI.closeBrowser()
+
